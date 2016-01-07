@@ -4,7 +4,7 @@
 
 setwd("G:/Praktikum Helmholtz/R/Coursera/Exploring Data Week1/Assignment Course Project 1")
 
-dir()
+Sys.setlocale("LC_TIME", "English")
 
 data <- read.table("household_power_consumption.txt", sep=";",
                    header=T,stringsAsFactors=FALSE, dec=".")
